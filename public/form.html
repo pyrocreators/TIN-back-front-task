@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>simple form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Enter Your Name</h2>
+      <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input class="input-text" type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input
+          class="input-text"
+          type="email"
+          id="email"
+          name="email"
+          required
+        />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
